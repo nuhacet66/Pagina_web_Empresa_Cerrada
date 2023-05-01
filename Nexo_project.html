@@ -2,15 +2,20 @@
 
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet"  href="./css/backgroundEstrellas.css">
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
 
 	<title>Mi Página Web</title>
 
 </head>
 <body>
+	<canvas  id="starry-background"></canvas>
 	<header>
 		<a href="./index.html">
-		<img src="./imagenesNExo/Recurso_54x.png" alt="Logo" width="100px" height="50px">
+			<img src="./imagenesNExo/Recurso_54x.png" alt="Logo" width="150px" height="50px">
 	</a>
 		<nav>
 			<ul>
@@ -26,37 +31,42 @@
 	</header>
 	
 	<div class="container">
-        <h1>Proyectos</h1>
-        <p>En esta sección encontrarás los proyectos que hemos realizado.</p>
+		<main>
+			<section class="hero1">
+				<h1 >Proyecto</h1>
+				</section>
+		</main>
         <div class="row">
             <div class="col-md-4">
-                <img src="./imagenesNExo/Diseño sin título-4.png" alt="Proyecto 1" width="25%">
-                <h2>EL RINCÓN DE MARU</h2>
-                <p>Estamos encantados de presentar este nuevo proyecto que hemos llevado a cabo con cariño, una floristería para Maru. Se encuentra situada en el municipio de Moya, en Las Palmas de Gran Canaria.
+                <img class="imgProyecto1" src="./imagenesNExo/Diseño sin título-4.png" alt="Proyecto 1" width="25%">
+				<main>
+               
+                <p class="pText1">Estamos encantados de presentar este nuevo proyecto que hemos llevado a cabo con cariño, una floristería para Maru. Se encuentra situada en el municipio de Moya, en Las Palmas de Gran Canaria.
                     Recomendamos acercarse a este pequeño comercio, donde encontrarás un espacio fresco y creativo. El Rincón de Maru cuenta con una amplia variedad de flores y plantas de alta calidad, ideales para un 
                     bonito detalle o para sorprender a esa persona especial.</p>
-               
+				</main>
             </div>
             <div class="col-md-4">
-                <img src="./imagenesNExo/Diseño sin título-5.png" alt="Proyecto 2" width="25%">
+                <img class="imgProyecto" src="./imagenesNExo/kritikal.jpg" alt="Proyecto 2" width="25%">
                 <h2></h2>
-                <p>KRITIKAL SQUAD</p>
-                <p>Presentamos una comunidad apasionada por los videojuegos y la competición electrónica. Un club de eSports con sede en Gran Canaria.
+                
+                <p class="pText1">Presentamos una comunidad apasionada por los videojuegos y la competición electrónica. Un club de eSports con sede en Gran Canaria.
                     Ha sido una interesante propuesta diseñada con cautela y entusiasmo. Es fácil trabajar cuando las ganas y el compromiso es alto por ambas partes. El Club compite en diferentes juegos, entre los que se encuentran: Valorant, League of Legends y Rocket League.
                     ¡Les deseamos mucha suerte y éxito en el Circuito Tormenta, estamos seguros de que subir a Liga Radiante es cuestión de tiempo!</p>
                 
             </div>
             
         </div>
-	
+		<footer>
+			<p>© 2023 NEXO HOLDING. Todos los derechos reservados.</p>	<nav>
+			  <ul>
+				<li><a href="/politica-de-privacidad"style="margin-left:30pc">Política de privacidad</a></li>
+				<li><a href="/terminos-de-servicio">Términos de servicio</a></li>
+			  </ul>
+			</nav>
+		  </footer>
+<script src="./js/estrellas.js"></script>	
 </body>
-<footer>
-	<p>© 2023 NEXO HOLDING. Todos los derechos reservados.</p>	<nav>
-	  <ul>
-		<li><a href="/politica-de-privacidad"style="margin-left:30pc">Política de privacidad</a></li>
-		<li><a href="/terminos-de-servicio">Términos de servicio</a></li>
-	  </ul>
-	</nav>
-  </footer>
+
   
 </html>

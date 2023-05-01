@@ -1,0 +1,133 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #000000, #00000000);
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+
+nav a:hover {
+    background-color: gray;
+}
+
+h1{
+    text-align: left;
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin-top: 100px;
+}
+video{
+    margin-left: 17pc;
+    width: 50%;
+    height: 50%;
+    margin-top: 100px;
+
+}
+
+.hero{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin-left: 10pc;
+    position: fixed;
+    top: 10pc;
+    left: 5pc;
+}
+.hero1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin-left: 54pc;
+   
+  
+  
+}
+.base{
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-top: 47pc;
+    border-top: 1px solid #ccc;
+}
+
+.imgProyecto1{
+    width: 22%;
+    height: 100%;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    margin-left: 25pc;
+}
+
+.pText1{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin-left: 10pc;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 50%;
+    height: 100%;
+    text-align: justify;
+    margin-left: 54pc;
+    margin-top: -24pc;
+    padding: auto;
+
+}
+
+.imgProyecto2{
+    width: 22%;
+    height: 100%;
+    margin-left: 70pc;
+    margin-top: 4pc;
+}
+.pText2{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin-left: 10pc;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 50%;
+    height: 100%;
+    text-align: justify;
+    margin-left: 54pc;
+    margin-top: -24pc;
+}
