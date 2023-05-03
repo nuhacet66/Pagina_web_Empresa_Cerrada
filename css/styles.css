@@ -113,10 +113,10 @@ video{
 }
 
 .imgProyecto2{
-    width: 22%;
     height: 100%;
-    margin-left: 70pc;
-    margin-top: 4pc;
+    width: 22%;
+    margin-left: 25pc;
+    margin-top: -3pc;
 }
 .pText2{
     font-size: 20px;
@@ -131,3 +131,124 @@ video{
     margin-left: 54pc;
     margin-top: -24pc;
 }
+.pText3{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: white;
+    width: 50%;
+    height: 100%;
+    text-align: justify;
+    margin-left: 30pc;
+}
+
+.foot{
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20pc;
+    border-top: 1px solid #ccc;
+}
+.linea{
+    margin-top: 12pc;
+    margin-bottom: 100px;
+    margin-left: 10pc;
+    margin-right: 10pc;
+    border: 1px solid #ccc;
+}
+.slider{
+    width: 50%;
+    margin-top: 1pc;
+    margin-left: 30pc;
+    margin-right: 10pc;
+    margin-bottom: 80px;
+}
+
+<!-- /* Path: Nexo-Holding\css\styles.css */ -->
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+form {
+    background-color: rgb(11 3 3 / 0%);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 20px;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+}
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+.hero2{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin-left: 47pc;
+}
+
+.foot1{
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10pc;
+    border-top: 1px solid #ccc;
+}
+.video{
+    margin-left: 13pc;
+    width: 100%;
+    height: 100%;
+}
+.news-box {
+    background-color: #f2f2f200;
+    border: 1px solid #cccccc62;
+    padding: 20px;
+    margin: 20px;
+  }
+  .news-item {
+    margin-bottom: 10px;
+  }
+  .news-item h2 {
+    margin-top: 0;
+    font-size: 1.2em;
+  }
+  .news-item p {
+    margin-bottom: 0;
+    font-size: 0.9em;
+  }
+ .checkbox{
+        margin-left: 10pc;
+        margin-top: 10pc;
+ }

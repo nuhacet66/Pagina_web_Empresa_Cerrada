@@ -4,9 +4,10 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Mi Página Web</title>
 	<link rel="stylesheet"  href="./css/backgroundEstrellas.css">
 	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<title>Nexo Holding</title>
+	<link rel="shortcut icon" type="image/png" href="./imagenesNExo/Recurso_34x.png"/>
 </head>
 <body>
 	<canvas  id="starry-background"></canvas>
@@ -26,13 +27,35 @@
 		</nav>
 	</header>
     <div>
-        <h1>Noticias</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies ultrices, nunc nunc aliquet nunc, vitae a
-        </p>
+		<section class="hero2">
+			<h1 >Ultimas Noticias</h1>
+			</section>
+        <div class="news-box">
+			<div id="news-container"></div>
+		  </div>
+		  <script>
+			// Cargar las noticias utilizando JavaScript
+			var news = [
+			  {
+				title: "Nexo Gaming",
+				date: "01/05/2023",
+				content: "COMMING SOON"
+			  }
+			  
+			];
+			
+			// Mostrar las noticias en el cajón de noticias
+			var newsContainer = document.getElementById("news-container");
+			for (var i = 0; i < news.length; i++) {
+			  var newsItem = document.createElement("div");
+			  newsItem.classList.add("news-item");
+			  newsItem.innerHTML = "<h2>" + news[i].title + "</h2><p>" + news[i].date + "</p><p>" + news[i].content + "</p>";
+			  newsContainer.appendChild(newsItem);
+			}
+		  </script>
     </div>
 	
-	<footer>
+	<footer class="foot">
 		<p>© 2023 NEXO HOLDING. Todos los derechos reservados.</p>	<nav>
 		  <ul>
 			<li><a href="/politica-de-privacidad"style="margin-left:30pc">Política de privacidad</a></li>
