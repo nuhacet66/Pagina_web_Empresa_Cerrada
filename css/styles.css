@@ -154,7 +154,7 @@ video{
     margin-bottom: 100px;
     margin-left: 10pc;
     margin-right: 10pc;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc31;
 }
 .slider{
     width: 50%;
@@ -215,7 +215,7 @@ input[type="submit"]:hover {
     font-size: 25px;
     font-family: Arial, sans-serif;
     color: white;
-    margin-left: 47pc;
+    margin-left: 41pc;
 }
 
 .foot1{
@@ -224,7 +224,15 @@ input[type="submit"]:hover {
     text-align: center;
     padding: 20px;
     margin-top: 10pc;
-    border-top: 1px solid #ccc;
+  
+}
+.foot2{
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20pc;
+  
 }
 .video{
     margin-left: 13pc;
@@ -251,4 +259,48 @@ input[type="submit"]:hover {
  .checkbox{
         margin-left: 10pc;
         margin-top: 10pc;
+ }
+ .footerBotton{
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-left: 39pc;
+   
+ }
+ .footerBotton2{
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-left: 42pc;
+   
+ }
+.img_trab{
+    width: 15%;
+    margin-left: 30pc;
+    margin-top: 3pc;
+
+}
+
+ .information__text{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin-left: 10pc;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 50%;
+    height: 100%;
+    text-align: justify;
+    margin-left: 54pc;
+    margin-top: -24pc;
+    padding: auto;
+ }
+ .foot2{
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30em;
  }
