@@ -37,6 +37,14 @@ nav a {
     border-radius: 5px;
     transition: background-color 0.5s ease;
 }
+.navegador{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
 
 nav a:hover {
     background-color: gray;
@@ -47,10 +55,11 @@ h1{
     font-size: 2em;
     font-family: Arial, sans-serif;
     color: white;
-    margin-top: 100px;
+    margin-top: -1em;
+    margin-left: -5em;
 }
 video{
-    margin-left: 17pc;
+    margin-left: 17em;
     width: 50%;
     height: 50%;
     margin-top: 100px;
@@ -63,28 +72,30 @@ video{
     font-size: 50px;
     font-family: Arial, sans-serif;
     color: white;
-    margin-left: 10pc;
+    margin-left: 10em;
     position: fixed;
-    top: 10pc;
-    left: 5pc;
+    top: 10em;
+    left: 5em;
 }
 .hero1{
-    text-align: center;
-    margin-top: 100px;
-    font-size: 25px;
+    text-align: left;
+    font-size: 2em;
     font-family: Arial, sans-serif;
     color: white;
-    margin-left: 54pc;
+    margin-top: 8em;
+    margin-left: 36em;
    
   
   
 }
+
+
 .base{
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;
-    margin-top: 47pc;
+    margin-top: 47em;
     border-top: 1px solid #ccc;
 }
 
@@ -93,21 +104,21 @@ video{
     height: 100%;
     margin-top: 70px;
     margin-bottom: 100px;
-    margin-left: 25pc;
+    margin-left: 25em;
 }
 
 .pText1{
     font-size: 20px;
     font-family: Arial, sans-serif;
     color: white;
-    margin-left: 10pc;
+    margin-left: 10em;
     margin-top: 100px;
     margin-bottom: 100px;
     width: 50%;
     height: 100%;
     text-align: justify;
-    margin-left: 54pc;
-    margin-top: -24pc;
+    margin-left: 43em;
+    margin-top: -24em;
     padding: auto;
 
 }
@@ -115,21 +126,21 @@ video{
 .imgProyecto2{
     height: 100%;
     width: 22%;
-    margin-left: 25pc;
-    margin-top: -3pc;
+    margin-left: 25em;
+    margin-top: 3em;
 }
 .pText2{
     font-size: 20px;
     font-family: Arial, sans-serif;
     color: white;
-    margin-left: 10pc;
+    margin-left: 10em;
     margin-top: 100px;
     margin-bottom: 100px;
     width: 50%;
     height: 100%;
     text-align: justify;
-    margin-left: 54pc;
-    margin-top: -24pc;
+    margin-left: 54em;
+    margin-top: -24em;
 }
 .pText3{
     font-size: 20px;
@@ -138,7 +149,7 @@ video{
     width: 50%;
     height: 100%;
     text-align: justify;
-    margin-left: 30pc;
+    margin-left: 24em;
 }
 
 .foot{
@@ -146,21 +157,21 @@ video{
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;
-    margin-top: 20pc;
+    margin-top: 20em;
     border-top: 1px solid #ccc;
 }
 .linea{
-    margin-top: 12pc;
+    margin-top: 19em;
     margin-bottom: 100px;
-    margin-left: 10pc;
-    margin-right: 10pc;
+    margin-left: 10em;
+    margin-right: 10em;
     border: 1px solid #cccccc31;
 }
 .slider{
     width: 50%;
-    margin-top: 1pc;
-    margin-left: 30pc;
-    margin-right: 10pc;
+    margin-top: 1em;
+    margin-left: 30em;
+    margin-right: 10em;
     margin-bottom: 80px;
 }
 
@@ -215,15 +226,31 @@ input[type="submit"]:hover {
     font-size: 25px;
     font-family: Arial, sans-serif;
     color: white;
-    margin-left: 41pc;
+    margin-left: 37em;
 }
 
+.hero4{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin-left: 43em;
+}
+.hero3{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin-left: 40em;
+}
 .foot1{
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;
-    margin-top: 10pc;
+    margin-top: 10em;
   
 }
 .foot2{
@@ -231,11 +258,11 @@ input[type="submit"]:hover {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;
-    margin-top: 20pc;
+    margin-top: 20em;
   
 }
 .video{
-    margin-left: 13pc;
+    margin-left: 13em;
     width: 100%;
     height: 100%;
 }
@@ -257,15 +284,15 @@ input[type="submit"]:hover {
     font-size: 0.9em;
   }
  .checkbox{
-        margin-left: 10pc;
-        margin-top: 10pc;
+        margin-left: 10em;
+        margin-top: 10em;
  }
  .footerBotton{
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;
-    margin-left: 39pc;
+    margin-left: 39em;
    
  }
  .footerBotton2{
@@ -273,28 +300,26 @@ input[type="submit"]:hover {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;
-    margin-left: 42pc;
+    margin-left: 42em;
    
  }
 .img_trab{
     width: 15%;
-    margin-left: 30pc;
-    margin-top: 3pc;
-
+    margin-left: 30em;
+    margin-top: 3em;
 }
 
  .information__text{
     font-size: 20px;
     font-family: Arial, sans-serif;
     color: white;
-    margin-left: 10pc;
-    margin-top: 100px;
     margin-bottom: 100px;
     width: 50%;
     height: 100%;
     text-align: justify;
-    margin-left: 54pc;
-    margin-top: -24pc;
+    margin-right: 25em;
+    margin-top: 11em;
+    margin-left: -14em;
     padding: auto;
  }
  .foot2{
@@ -304,3 +329,33 @@ input[type="submit"]:hover {
     padding: 20px;
     margin-top: 30em;
  }
+ .my-container {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    max-width: 180vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+  }
+
+
+  .aviso{
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30em;
+  }
+  .animado {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  }
+  .animado.mostrar {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  
