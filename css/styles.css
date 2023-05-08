@@ -15,8 +15,8 @@ header {
 }
 
 .logo {
-    font-size: 30px;
-    font-weight: bold;
+    width:150px;
+     height:50px;
 }
 
 
@@ -56,7 +56,7 @@ h1{
     font-family: Arial, sans-serif;
     color: white;
     margin-top: -1em;
-    margin-left: -5em;
+    margin-left: 1em;
 }
 video{
     margin-left: 17em;
@@ -68,25 +68,46 @@ video{
 
 .hero{
     text-align: center;
-    margin-top: 100px;
     font-size: 50px;
     font-family: Arial, sans-serif;
     color: white;
-    margin-left: 10em;
+    
     position: fixed;
-    top: 10em;
-    left: 5em;
+    top: 9em;
 }
 .hero1{
-    text-align: left;
-    font-size: 2em;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
     font-family: Arial, sans-serif;
     color: white;
-    margin-top: 8em;
-    margin-left: 36em;
-   
-  
-  
+    margin-left: 25em;
+}
+.hero2{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin-left: 18em;
+}
+
+.hero3{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin-left: 40em;
+}
+
+.hero4{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin-left: 21em;
 }
 
 
@@ -104,7 +125,7 @@ video{
     height: 100%;
     margin-top: 70px;
     margin-bottom: 100px;
-    margin-left: 25em;
+    margin-left: 16em;
 }
 
 .pText1{
@@ -117,8 +138,8 @@ video{
     width: 50%;
     height: 100%;
     text-align: justify;
-    margin-left: 43em;
-    margin-top: -24em;
+    margin-left: 33em;
+    margin-top: -19em;
     padding: auto;
 
 }
@@ -126,8 +147,8 @@ video{
 .imgProyecto2{
     height: 100%;
     width: 22%;
-    margin-left: 25em;
-    margin-top: 3em;
+    margin-left: 16em;
+   
 }
 .pText2{
     font-size: 20px;
@@ -139,8 +160,8 @@ video{
     width: 50%;
     height: 100%;
     text-align: justify;
-    margin-left: 54em;
-    margin-top: -24em;
+    margin-left: 32em;
+    margin-top: -14em;
 }
 .pText3{
     font-size: 20px;
@@ -149,7 +170,7 @@ video{
     width: 50%;
     height: 100%;
     text-align: justify;
-    margin-left: 24em;
+    margin-left: 21em;
 }
 
 .foot{
@@ -220,31 +241,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #3e8e41;
 }
-.hero2{
-    text-align: center;
-    margin-top: 100px;
-    font-size: 25px;
-    font-family: Arial, sans-serif;
-    color: white;
-    margin-left: 37em;
-}
 
-.hero4{
-    text-align: center;
-    margin-top: 100px;
-    font-size: 25px;
-    font-family: Arial, sans-serif;
-    color: white;
-    margin-left: 43em;
-}
-.hero3{
-    text-align: center;
-    margin-top: 100px;
-    font-size: 25px;
-    font-family: Arial, sans-serif;
-    color: white;
-    margin-left: 40em;
-}
 .foot1{
     color: white;
     font-family: Arial, sans-serif;
@@ -262,7 +259,7 @@ input[type="submit"]:hover {
   
 }
 .video{
-    margin-left: 13em;
+    margin-left: 9em;
     width: 100%;
     height: 100%;
 }
@@ -292,7 +289,7 @@ input[type="submit"]:hover {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;
-    margin-left: 39em;
+    margin-left: 28em;
    
  }
  .footerBotton2{
@@ -303,9 +300,17 @@ input[type="submit"]:hover {
     margin-left: 42em;
    
  }
+ .footerBotton3{
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-left: 31em;
+   
+ }
 .img_trab{
     width: 15%;
-    margin-left: 30em;
+    margin-left: 26em;
     margin-top: 3em;
 }
 
@@ -339,23 +344,99 @@ input[type="submit"]:hover {
     align-items: center;
     padding: 1em 2em;
   }
-
-
-  .aviso{
-    color: black;
-    font-family: Arial, sans-serif;
-    text-align: center;
+  
+.tarjeta1{
+    width: 100%;
+    height: 100%;
+    margin-left: 10em;
+    margin-top: 10em;
+    margin-bottom: 10em;
+    border: 1px solid #cccccc62;
     padding: 20px;
-    margin-top: 30em;
+    background-color: #f2f2f200;
+
+ }
+ .tarjeta2{
+    width: 100%;
+    height: 100%;
+    margin-left: 10em;
+    margin-top: 10em;
+    margin-bottom: 10em;
+    border: 1px solid #cccccc62;
+    padding: 20px;
+    background-color: #f2f2f200;
+
+ }
+
+ .tarjeta3{
+    width: 100%;
+    height: 100%;
+    margin-left: 10em;
+    margin-top: 10em;
+    margin-bottom: 10em;
+    border: 1px solid #cccccc62;
+    padding: 20px;
+    background-color: #f2f2f200;
+
+ }
+ .menu {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
   }
-  .animado {
-    opacity: 0;
-    transform: translateY(100px);
-    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  
+  .menu li {
+    margin: 0 10px;
   }
-  .animado.mostrar {
-    opacity: 1;
-    transform: translateY(0);
+  
+  .menu li a:hover {
+    border-bottom: 2px solid #fff;
   }
+  
+  .menu-btn {
+    display: none;
+  }
+  
+  @media (max-width: 1247px) {
+    .menu {
+      display: none;
+    }
+    .menu-btn {
+      display: block;
+      cursor: pointer;
+    }
+    .menu-btn span {
+      display: block;
+      width: 30px;
+      height: 3px;
+      background-color: #fff;
+      margin: 5px;
+    }
+      
+  }
+
+  @media (max-width: 1247px) {
+    .menu {
+      display: none;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      background-color: #000;
+      z-index: 1;
+    }
+    .menu.show {
+      display: flex;
+      flex-direction: column;
+    }
+    .menu li {
+      margin: 10px;
+    }
+  }
+
+
+
+
+
   
   

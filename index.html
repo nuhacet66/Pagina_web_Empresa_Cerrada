@@ -9,16 +9,17 @@
 	<link rel="stylesheet" type="text/css" href="./css/styles.css">
 	<title>Nexo Holding</title>
 	<link rel="shortcut icon" type="image/png" href="./imagenesNExo/Recurso_14x.png"/>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 <canvas  id="starry-background"></canvas>
 <header>
 		<a href="./index.html">
-			<img src="./imagenesNExo/Recurso_54x.png" alt="Logo" width="150px" height="50px">
+			<img class="logo" src="./imagenesNExo/Recurso_54x.png" alt="Logo">
 		</a>
 		<script src="estrellas.js"></script>
 		<nav>
-			<ul>
+			<ul class="menu">
 				<li><a href="./aboutUs.html">Sobre Nosotros</a></li>
 				<li><a href="./Nexo_project.html">Proyectos</a></li>
 				<li><a href="./e-sport.html">Consultoria eSports</a></li>
@@ -26,9 +27,13 @@
 				<li><a href="./news.html">Noticias</a></li>
 				<li><a href="./affiliate.html">Afiliacion</a></li>
 				<li><a href="./contact.html">Contacto</a></li>
-                
-
 			</ul>
+			<div class="menu-btn">
+				<span></span>
+				<span></span>
+				<span></span>
+				
+			  </div>
 		</nav>
 </header>
 	
@@ -40,5 +45,6 @@
 	</main>
 	
 <script src="./js/estrellas.js"></script>
+<script src="./js/menu.js"></script>
 </body>
 </html>
