@@ -1,80 +1,95 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet"  href="./css/backgroundEstrellas.css">
-	<link rel="stylesheet" type="text/css" href="./css/styles.css">
-	<title>Nexo Holding</title>
-	<link rel="shortcut icon" type="image/png" href="./imagenesNExo/Recurso_34x.png"/>
-</head>
-<body>
-	<canvas  id="starry-background"></canvas>
-	<header>
-		<a href="./index.html">
-			<img src="./imagenesNExo/Recurso_54x.png" alt="Logo" width="150px" height="50px">
-		</a>	
-		<nav>
-			<ul class="menu">
-				<li><a href="./aboutUs.html">Sobre Nosotros</a></li>
-				<li><a href="./Nexo_project.html">Proyectos</a></li>
-				<li><a href="./e-sport.html">Consultoria eSports</a></li>
-				<li><a href="./event.html">Eventos</a></li>
-				<li><a href="./news.html">Noticias</a></li>
-				<li><a href="./affiliate.html">Afiliacion</a></li>
-				<li><a href="./contact.html">Contacto</a></li>
-			</ul>
-			<div class="menu-btn">
-				<span></span>
-				<span></span>
-				<span></span>
-				
-			  </div>
-		</nav>
-	</header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/backgroundEstrellas.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <title>Nexo Holding</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./imagenesNExo/Recurso_34x.png"
+    />
+  </head>
+  <body>
+    <canvas id="starry-background"></canvas>
+    <header>
+      <a href="./index.html">
+        <img
+          class="logo"
+          src="./imagenesNExo/Recurso_54x.png"
+          alt="Logo"
+          width="150px"
+          height="50px"
+        />
+        <img class="logo2" src="./imagenesNExo/Recurso_14x.png" alt="Logo" />
+      </a>
+      <nav>
+        <ul class="menu">
+          <li><a href="./aboutUs.html">Sobre Nosotros</a></li>
+          <li><a href="./Nexo_project.html"> Nexo Proyectos</a></li>
+          <li><a href="./e-sport.html">Consultoría eSports</a></li>
+          <li><a href="./news.html">Nexo Noticias</a></li>
+          <li><a href="./contact.html">Contacto</a></li>
+        </ul>
+        <div class="menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
     <div>
-		<section class="hero4">
-			<h1 >Ultimas Noticias</h1>
-			</section>
-        <div class="news-box">
-			<div id="news-container"></div>
-		  </div>
-		  <script>
-			// Cargar las noticias utilizando JavaScript
-			var news = [
-			  {
-				title: "Nexo Gaming",
-				date: "01/05/2023",
-				content: "COMMING SOON"
-			  }
-			  
-			];
-			
-			// Mostrar las noticias en el cajón de noticias
-			var newsContainer = document.getElementById("news-container");
-			for (var i = 0; i < news.length; i++) {
-			  var newsItem = document.createElement("div");
-			  newsItem.classList.add("news-item");
-			  newsItem.innerHTML = "<h2>" + news[i].title + "</h2><p>" + news[i].date + "</p><p>" + news[i].content + "</p>";
-			  newsContainer.appendChild(newsItem);
-			}
-		  </script>
-    </div>
-	
-	<footer class="foot1">
-		<p>© 2023 NEXO HOLDING. Todos los derechos reservados.</p>	<nav>
-		  <ul class="footerBotton">
-			<li><a href="/politica-de-privacidad">Política de privacidad</a></li>
-          <li><a href="/terminos-de-servicio">Términos de servicio</a></li>
-          <li><a href="/terminos-de-servicio">Cookies</a></li>
-		  </ul>
-		</nav>
-	  </footer>
-	
-<script src="./js/estrellas.js"></script>
-<script src="./js/menu.js"></script>
-</body>
+      <section class="hero1">
+        <h1>Últimas Noticias</h1>
+      </section>
+      <div class="news-box">
+        <div id="news-container"></div>
+      </div>
 
-  
+      <script>
+        // Cargar las noticias utilizando JavaScript
+        var news = [
+          {
+            title: "Nexo Gaming",
+            date: "01/05/2023",
+            content: "COMING SOON",
+          },
+        ];
+
+        // Mostrar las noticias en el cajón de noticias
+        var newsContainer = document.getElementById("news-container");
+        for (var i = 0; i < news.length; i++) {
+          var newsItem = document.createElement("div");
+          newsItem.classList.add("news-item");
+          newsItem.innerHTML =
+            "<h2>" +
+            news[i].title +
+            "</h2><p>" +
+            news[i].date +
+            "</p><p>" +
+            news[i].content +
+            "</p>";
+          newsContainer.appendChild(newsItem);
+        }
+      </script>
+    </div>
+
+    <footer class="foot1">
+      <p>© 2023 NEXO HOLDING. Todos los derechos reservados.</p>
+      <nav>
+        <ul class="footerBotton">
+          <li><a class="menuFooter" href="privacidad.html">Política de privacidad</a></li>
+          <li><a class="menuFooter" href="aviso.html">Aviso Legal</a></li>
+          <li><a class="menuFooter" href="cookies.html"> Política de Cookies</a></li>
+        </ul>
+      </nav>
+    </footer>
+
+    <script src="./js/estrellas.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/whatsapp.js"></script>
+  </body>
 </html>
