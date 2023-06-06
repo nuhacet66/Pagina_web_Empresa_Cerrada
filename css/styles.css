@@ -60,16 +60,16 @@ nav a {
   font-family: "Montserrat";
   transition: background-color 0.5s ease;
 }
-.menuFooter{
-    color: white;
-    text-decoration: none;
-    font-size: 12px;
-    padding: 10px;
-    border-radius: 5px;
-    font-family: "Montserrat";
-    transition: background-color 0.5s ease;
-  }
 
+.tamano {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: "Montserrat";
+  transition: background-color 0.5s ease;
+}
 .navegador {
   color: white;
   text-decoration: none;
@@ -561,4 +561,3 @@ input[type="submit"]:hover {
     text-align: justify;
   }
 }
-
