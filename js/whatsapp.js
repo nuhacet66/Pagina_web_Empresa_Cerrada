@@ -1,6 +1,6 @@
 (function () {
   var options = {
-    whatsapp: "623994994", // Reemplaza "tu_numero_de_telefono" con tu número de teléfono de WhatsApp Business
+    whatsapp: "0000000000", // Reemplaza "tu_numero_de_telefono" con tu número de teléfono de WhatsApp Business
     call_to_action: "¡Contáctanos!", // Texto del enlace o botón
     position: "right", // Posición del widget (right o left)
   };
